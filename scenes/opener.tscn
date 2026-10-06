@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/presenter.gd" id="1_opener"]
+
+[node name="Opener" type="Node2D"]
+script = ExtResource("1_opener")
+[node name="SheetLens" type="Camera2D" parent="."]
+position = Vector2(160, 120)
+[node name="Overworld" type="ColorRect" parent="."]
+offset_left = 40
+offset_top = 40
+offset_right = 240
+offset_bottom = 160
+color = Color(0.2, 0.25, 0.2, 1)
+[node name="FighterA" type="ColorRect" parent="."]
+offset_left = 88
+offset_top = 88
+offset_right = 112
+offset_bottom = 112
+color = Color(0.9, 0.3, 0.3, 1)
+[node name="FighterB" type="ColorRect" parent="."]
+offset_left = 168
+offset_top = 88
+offset_right = 192
+offset_bottom = 112
+color = Color(0.3, 0.4, 0.9, 1)
